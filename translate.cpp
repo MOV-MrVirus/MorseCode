@@ -34,7 +34,7 @@ int main()
     };
 	
 	// 第一步：字符串大小写转换
-	string letter_str = "hello world";
+	string letter_str = "helloworld";
 	int length = letter_str.length();
 	for (int i = 0; i < length; i++)
 	{
@@ -50,19 +50,19 @@ int main()
 	/*char c = 'b';
 	if (c >= 97 && c<122)
 		c -= 32;*/
-	//开始转换摩尔斯电码
+	//开始转换摩尔string* code_str= new string[]斯电码
 	//cout << code[c - 65] << endl;
+	
 	string code_str[length];
-	cout << code[length - 1] << endl;
-	/*for (int i = 0; i < length; i++)
+	for (int i = 0; i < length; i++)
 	{
 		code_str[i] = code[letter_str[i] - 65];
-	}*/
-	/*
+	}
+	
 	for (int i = 0; i< length; i++)
 	{
-		cout << code_str[i] << " ";
-	}*/
+		cout << code_str[i] << "  ";
+	}
 	
 	//string str[] = {"hello world", "hello boy"};
 	//transform(str.begin(),str.end(),str.begin(),::toupper);
